@@ -75,3 +75,25 @@ code {
     flex-direction: column;
   }
 } 
+@media (min-width: 601px) and (max-width: 1200px) {
+  #navbar {
+    display: flex;
+    background-color: #123458;
+    max-width: 30%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #navbar header {
+    color: #D4C9BE;
+    font-size: 2.35rem;
+    border-bottom: 3px solid #D4C9BE;
+    padding: 5px;
+  }
+  #navbar a {
+    color: #D4C9BE;
+  }
+  .main-section {
+
+  }
+}
